@@ -17,7 +17,7 @@ function reloadSlider() {
 
 
 next.onclick = function() {
-    active = (active + 1) > lengthItems ? 0 : active + 1;
+    active = (active + 1) > lengthItems ? 0: active + 1;
     reloadSlider();
 }
 
